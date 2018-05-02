@@ -1,0 +1,126 @@
+@media only screen and (max-width: 767px) {
+  /* tout pour le mobile */
+
+  .split-left {
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+  }
+
+  .split-right {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media only screen and (min-width: 767px) {
+    .split-container {
+      display: flex;
+    }
+
+    .split-left {
+      background-size: cover;
+      background-position: center;
+      width: 50%;
+      height: 100vh;
+      margin: 0px;
+      position: sticky !important;
+      top: 0 !important
+    }
+
+    .split-right {
+      width: 50%;
+      min-height: 100vh;
+    }
+}
+
+h1, h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  opacity: 0.6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+   font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+  padding: 20px 50px;
+}
+
+.intro h1 {
+  padding: 20px 0px;
+}
+
+.intro p {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.bio {
+  padding: 20px 50px;
+}
+
+.bio p {
+  font-size: 20px;
+}
+
+.footer {
+  padding-top: 0px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.footer h2 {
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.icons-container i {
+  font-size: 14px;
+  background-color: white;
+  padding-left: 6px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50%;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.15),0 1px 0 0 rgba(0,0,0,0.10);
+}
+
+.icons-container i:hover {
+  background-color: white;
+  padding-left: 6px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50%;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.34),0 1px 0 0 rgba(0,0,0,0.20);
+}
+
+.fa-twitter {
+  color: #4AA0EC;
+}
+
+.fa-spotify {
+  color: #65D26F;
+}
+
+.fa-linkedin-in {
+  color: #3076B0;
+}
+
+
+
